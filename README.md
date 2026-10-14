@@ -1,4 +1,4 @@
-# bitburo_contracts
+# bitburo-contracts
 
 > **Audit version:** tag `audit-2026-10-01`. Its `src/` is the code of the live contract on Base at `0x0C83C3785deF69B25c08b190C607D5890dfACE66`.
 
