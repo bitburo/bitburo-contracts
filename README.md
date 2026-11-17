@@ -50,7 +50,7 @@ The order matters. A keeper that sees your `stop()` before it lands can still pl
 |---|---|---|
 | Rebalancer (live) | `0x0C83C3785deF69B25c08b190C607D5890dfACE66` | Live since 1 October 2026, block 52,034,272, tx `0x08c18b0ac3e77c8bec825287867d28ba23e72f5d41823990f87fbfe554731ae2`. Code: `src/` at tag `audit-2026-10-01`. |
 
-**Audit.** [softstack](https://softstack.io/audits/bitburo) audited `src/Rebalancer.sol` and `keeper/keeper.ts` at commit `b5ed2cb` (tag `audit-2026-10-01`), completed on 6 October 2026: 4 findings, 1 low and 3 informational. The report records how each finding was handled. Code that changed after that tag is outside the audit.
+**Audit.** [softstack](https://softstack.io/audits/bitburo) audited `src/Rebalancer.sol` and `keeper/keeper.ts` at commit `83672ec` (tag `audit-2026-10-01`), completed on 6 October 2026: 4 findings, 1 low and 3 informational. The report records how each finding was handled. Code that changed after that tag is outside the audit.
 
 **Check it yourself.** The deployed runtime bytecode (6,794 bytes) is identical to a build of the tag apart from the six immutables. Build it with solc `0.8.37`, `via_ir = true`, optimizer 1,000 runs, `evm_version = cancun`, OpenZeppelin Contracts `v5.6.1` and Foundry `1.5.1` (see [Development](#development)).
 
